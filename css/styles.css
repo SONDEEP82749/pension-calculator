@@ -14,13 +14,13 @@ body{margin:0;background:var(--bg);color:#0b1726;padding:18px}
 
 .container{max-width:980px;margin:12px auto;background:var(--card);padding:16px;border-radius:10px;box-shadow:0 6px 20px rgba(12,25,52,0.06);overflow: hidden;} /* prevent visual overflow */
 
-h1{font-size:48px;margin:0;text-transform:uppercase;color:var(--olive); text-align: center;}
+h1{font-size:25px;margin:0;text-transform:uppercase;color:var(--olive); text-align: center;}
 
-.subtitle{font-size:25px;color:var(--muted);margin-bottom:18px;text-align: center}
+.subtitle{font-size:12px;color:var(--muted);margin-bottom:18px;text-align: center}
 
 .form{display:flex;flex-direction:column;gap:6px}
 
-label{font-size:23px}
+label{font-size:21px}
 
 input,select{width:40%;padding:10px;border-radius:8px;border:1px solid #e6eefc;font-size:20px}
 
