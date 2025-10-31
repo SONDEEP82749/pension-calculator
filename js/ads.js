@@ -1,9 +1,7 @@
-// ads.js - placeholders for AdSense integration
-// Replace the ad-slot divs in index.html with actual AdSense code after your AdSense account is approved.
-// Example (replace data-ad-client and data-ad-slot):
+// ads.js - AdSense integration (replace client & slot IDs with your own)
 
-/*<div class="ad-slot">*/
-  document.getElementById("topAd").innerHTML = `
+// 🟩 Top Ad
+document.getElementById("topAd").innerHTML = `
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1234567890123456"
     crossorigin="anonymous"></script>
   <ins class="adsbygoogle"
@@ -15,7 +13,4 @@
   <script>
       (adsbygoogle = window.adsbygoogle || []).push({});
   </script>
-;
-
-/*</div>*/
-// Note: Ensure to comply with Google AdSense policies when implementing ads.
+`;
