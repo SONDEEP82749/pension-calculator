@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://pencalculator.startknowledge.in/sitemap.xml
