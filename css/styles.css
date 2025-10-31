@@ -81,7 +81,7 @@ th,td{padding:8px;border-bottom:1px solid #eef4ff;text-align:left}
   min-width: 160px;      /* don't shrink too small */
 }
 
-* Right (image) fixed but limited width and prevents overflow */
+/* Right (image) fixed but limited width and prevents overflow */
 .form-image-row .image-side{
   flex: 0 0 260px;       /* fixed width column: adjust to 200-300px as needed */
   max-width: 260px;
@@ -91,7 +91,7 @@ th,td{padding:8px;border-bottom:1px solid #eef4ff;text-align:left}
   align-items: center;
 }
 
-* Right (image) fixed but limited width and prevents overflow */
+/* Right (image) fixed but limited width and prevents overflow */
 .form-image-row .image-side{
   flex: 0 0 260px;       /* fixed width column: adjust to 200-300px as needed */
   max-width: 260px;
