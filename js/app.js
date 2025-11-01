@@ -99,7 +99,7 @@
     const gratuity = 0.5 * ( reckonEmoluments + (reckonEmoluments * daPerc/100) ) * ( Number(serviceYears) + 5 );
     const leaveEncash = ((basicPay + (basicPay * daPerc/100))/30) * leaveDays;
     const transferGrant = ((basicPay + msPay) * 80)/100;
-    const agi = 600000;
+    const agi = 1200000;
     const echs = 30000;
     const totalLump = commutationAmount + gratuity + leaveEncash + transferGrant + lastApff + agi;
 
