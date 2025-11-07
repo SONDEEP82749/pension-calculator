@@ -20,13 +20,16 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 👉 Agar aapke repo me direct index.html hai to ye enough hai
+      # 👉 If your site has index.html in the root folder
       - name: Upload site files
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./
 
   deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
     steps:
