@@ -125,3 +125,25 @@ th,td{padding:8px;border-bottom:1px solid #eef4ff;text-align:left}
     max-height: 360px;
   }
 }
+/* === Grand Total Row Styling === */
+#resultTable tr:last-child th {
+  background-color: #f9f9f9;     /* light grey background */
+  font-weight: bold;             /* bold text */
+  color: #222;                   /* darker text */
+  border-top: 2px solid #333;    /* clear separation line */
+  text-align: right;             /* align amount nicely */
+  padding: 8px;
+}
+
+/* Optional: Add slight shadow or highlight effect */
+#resultTable tr:last-child {
+  box-shadow: inset 0 1px 0 #ddd;
+}
+
+/* ✅ If you want the Grand Total to stay visible even when scrolling */
+#resultTable tfoot th {
+  position: sticky;
+  bottom: 0;
+  background: #fff;
+  z-index: 2;
+}
