@@ -138,7 +138,7 @@
       <input id="commuteRate" type="number" value="50" min="20" max="50" />
       <div class="note-row">
         <div class="note-left">input box editable; result box not editable</div>
-        <div class="note-right">AGI fixed: ₹12,00,000 | ECHS (JCO/OR): ₹30,000</div>
+        <div class="note-right">AGI fixed:₹6,00,000 to ₹12,00,000 | ECHS (JCO/OR): ₹30,000</div>
       </div>
       <div class="controls">
         <button id="calculateBtn" class="btn">Calculate</button>
@@ -159,8 +159,20 @@
     <div id="rightAd" class="ad-slot">Right Bottom Ad placeholder</div>
     </div>
     <section id="resultBlock" class="results" style="display:none">
-      <h2>Summary (Estimate) <span id="redArrow" class="red-arrow" style="display:none">⬅</span></h2>
-      <table id="resultTable"><thead><tr><th>Item</th><th>Value (₹)</th></tr></thead><tbody></tbody></table>
+      <h2>Summary (Estimate) <span id="redArrow" class="red-arrow" style="display:none">📩</span></h2>
+      <table id="resultTable">
+  <thead>
+    <tr><th>Item</th><th>Value (₹)</th></tr>
+  </thead>
+  <tbody id="resultBody"></tbody>
+  <tfoot>
+    <tr class="grand-total">
+      <th>Grand Total</th>
+      <th id="grandTotal">₹0</th>
+    </tr>
+  </tfoot>
+</table>
+
       <h3>Commutation factors (age next): active age -> <span id="ageNextHighlighted" class="highlight">-</span></h3>
       <div class="factor-wrap"><table id="factorTable"><thead><tr><th>Age next</th><th>Value</th></tr></thead><tbody></tbody></table></div>
       <div class="jobs">
